@@ -72,7 +72,7 @@ export default function PackageDetailPage() {
   };
 
   return (
-    <div className="bg-[#F5F5F7] text-white pt-24 pb-32 min-h-screen">
+    <div className="bg-[#07090E] text-white pt-24 pb-32 min-h-screen">
       {/* Lightbox Modal */}
       <ImageLightbox
         images={allImages}

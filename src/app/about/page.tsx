@@ -6,7 +6,7 @@ import { Compass, MapPin } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="pt-28 pb-32 bg-[#F5F5F7] text-white min-h-screen">
+    <div className="pt-28 pb-32 bg-[#07090E] text-white min-h-screen">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: 'About Us' }]} />
 

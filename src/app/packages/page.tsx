@@ -134,7 +134,7 @@ function PackagesContent() {
   }, [packages, destinationFilter, styleFilter, durationFilter, sortBy, searchQuery, savedOnly, savedPackageIds]);
 
   return (
-    <div className="pt-28 pb-32 bg-[#F5F5F7] text-white min-h-screen">
+    <div className="pt-28 pb-32 bg-[#07090E] text-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: 'Luxury Packages' }]} />
 
@@ -449,7 +449,7 @@ function PackagesContent() {
 
 export default function PackagesPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-[#F5F5F7] text-white pt-32 text-center">Loading luxury packages...</div>}>
+    <Suspense fallback={<div className="min-h-screen bg-[#07090E] text-white pt-32 text-center">Loading luxury packages...</div>}>
       <PackagesContent />
     </Suspense>
   );

@@ -37,7 +37,7 @@ export default function DestinationDetailPage() {
   );
 
   return (
-    <div className="bg-[#F5F5F7] text-white min-h-screen">
+    <div className="bg-[#07090E] text-white min-h-screen">
       {/* Destination Hero Video Section (Section 6 & 8) */}
       <section className="relative w-full h-[80vh] min-h-[560px] max-h-[800px] overflow-hidden bg-black flex items-center justify-center">
         <video

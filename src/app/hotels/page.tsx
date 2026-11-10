@@ -45,7 +45,7 @@ function HotelsContent() {
   }, [hotels, destinationFilter, tierFilter, searchQuery]);
 
   return (
-    <div className="pt-28 pb-32 bg-[#F5F5F7] text-white min-h-screen">
+    <div className="pt-28 pb-32 bg-[#07090E] text-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: 'Hotels & Sanctuaries' }]} />
 
@@ -144,7 +144,7 @@ function HotelsContent() {
 
 export default function HotelsPage() {
   return (
-    <Suspense fallback={<div className="min-h-screen bg-[#F5F5F7] text-white pt-32 text-center">Loading hotels...</div>}>
+    <Suspense fallback={<div className="min-h-screen bg-[#07090E] text-white pt-32 text-center">Loading hotels...</div>}>
       <HotelsContent />
     </Suspense>
   );
